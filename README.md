@@ -6,7 +6,7 @@ Marco Santos
   * [Data](#Data)
   * [Data Exploration](#Exploring-the-Dataset)
   * [Modeling](#Modeling)
-  * [Results/Recommendations](#Results//Recommendations)
+  * [Results/Recommendations](#Results-and-Recommendations)
   * [Improvements](#Potential-Improvements)
   * [Conclusion](#Conclusion)
   
@@ -130,7 +130,7 @@ __Notebooks containing each model:__
 * [KNearestNeighbors](Modeling_KNN.ipynb)
 * [RandomForest and XGBoost](Modeling_RF_XGBoost.ipynb) 
 
-## Results/Recommendations
+## Results and Recommendations
 When it comes to selecting which model performed best, there is only one clear answer: XGBoost.  This is due to the fact that XGBoost is the most consistent of the models along with its high score. Random Forest may have performed better but its results were inconsistent.
 
 However, Random Forest was correct more often than not, so for those people searching for more opportunities in investing, Random Forest may be the preferred model. Others who are not so concerned with quantity may perhaps choose XGBoost because of its consistency and stability.
