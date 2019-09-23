@@ -78,3 +78,51 @@ The results from runnning the Dummy Classifier on the final dataframe:
 
 Dummy Classifier's Confusion Matrix:
 ![](DummyConMat.png)
+
+#### Logistic Regression:
+Results:
+* Accuracy Score: 56%
+* F1 Score: 60%
+
+Confusion Matrix for
+![](LogRegConMat.png)
+
+#### K Nearest Neighbors:
+Results:
+* Accuracy Score: 57%
+* F1 Score: 57%
+
+Confusion Matrix for KNN:
+![](KNNConMat.png)
+
+#### Decision Tree:
+Results:
+* Accuracy Score: 59%
+* F1 Score: 67%
+
+Confusion Matrix for Decision Tree:
+![](DTConMat.png)
+
+#### Random Forest:
+Results:
+* Accuracy Score: 58% - 62%
+* F1 Score: 62% - 67%
+
+Confusion Matrix for Random Forest:
+![](RFConMat.png)
+
+#### XGBoost:
+Results:
+* Accuracy Score: 61%
+* F1 Score: 63%
+
+Confusion Matrix for XGBoost:
+![](XConMat.png)
+
+
+
+
+
+
+
+
