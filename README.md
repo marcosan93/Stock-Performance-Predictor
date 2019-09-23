@@ -136,6 +136,7 @@ When it comes to selecting which model performed best, there is only one clear a
 However, Random Forest was correct more often than not, so for those people searching for more opportunities in investing, Random Forest may be the preferred model. Others who are not so concerned with quantity may perhaps choose XGBoost because of its consistency and stability.
 
 __Important Features__
+
 When it comes to selecting which features were most important in determing whether a stock will go increase by >5%, XGBoost and RandomForest had similar observations:
 
 Random Forest's Important Features:
