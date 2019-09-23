@@ -6,8 +6,8 @@ Marco Santos
   * [Data](#Data)
   * [Data Exploration](#Exploring-the-Dataset)
   * [Modeling](#Modeling)
-  * [Results/Recommendations](#Results)
-  * [Improvements](#Potential)
+  * [Results/Recommendations](#Results-Recommendations)
+  * [Improvements](#Potential-Improvements)
   * [Conclusion](#Conclusion)
   
 ### Tools Used:
