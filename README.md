@@ -4,9 +4,9 @@ Marco Santos
 
 ## Table of Contents
   * [Data](#Data)
-  * [Data Exploration](#[Exploring)
+  * [Data Exploration](#Exploring)
   * [Modeling](#Modeling)
-  * [Results/Recommendations](#Results/Recommendations)
+  * [Results/Recommendations](#Results)
   * [Improvements](#Potential)
   * [Conclusion](#Conclusion)
   
