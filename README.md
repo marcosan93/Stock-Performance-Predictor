@@ -76,7 +76,7 @@ Jupyter notebook containing this process: [Exploring_Data](Exploring_Data.ipynb)
 Each model implemented optimized parameters using _GridSearchCV_.
 
 #### Baseline Model:
-Dummy Classifier was used as a baseline model. (Used in this notebook: [Modeling_baseline](Modeling_baseline.ipynb))
+Dummy Classifier was used as a baseline model. (Used in this notebook: [Modeling_baseline](Modeling/Modeling_baseline.ipynb))
 
 The results from runnning the Dummy Classifier on the final dataframe:
 * Accuracy Score: 46%
