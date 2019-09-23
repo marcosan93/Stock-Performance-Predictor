@@ -45,7 +45,7 @@ __Final DataFrame__:
 
 Below is a visualization of the class balance in the dataset:
 
-![](class_equality.png)
+![](Images/class_equality.png)
 
 Jupyter notebook containing the code for this entire process: [Cleaning_Original_Data](Cleaning_Original_Data.ipynb)
 
@@ -57,11 +57,11 @@ Each feature was plotted to see any class dominance when that specific feature w
 
 Example: 
 
-![](plow.png)
+![](Images/plow.png)
 
 Features correlation was observed using a heatmap to check if any specific features were significantly correlated.
 
-![](featcorr.png)
+![](Images/featcorr.png)
 
 Jupyter notebook containing this process: [Exploring_Data](Exploring_Data.ipynb)
 
@@ -83,7 +83,7 @@ The results from runnning the Dummy Classifier on the final dataframe:
 * F1 Score: 46%
 
 Dummy Classifier's Confusion Matrix:
-![](DummyConMat.png)
+![](Images/DummyConMat.png)
 
 #### Logistic Regression:
 Results:
@@ -91,7 +91,7 @@ Results:
 * F1 Score: 60%
 
 Confusion Matrix for
-![](LogRegConMat.png)
+![](Images/LogRegConMat.png)
 
 #### K Nearest Neighbors:
 Results:
@@ -99,7 +99,7 @@ Results:
 * F1 Score: 57%
 
 Confusion Matrix for KNN:
-![](KNNConMat.png)
+![](Images/KNNConMat.png)
 
 #### Decision Tree:
 Results:
@@ -107,7 +107,7 @@ Results:
 * F1 Score: 67%
 
 Confusion Matrix for Decision Tree:
-![](DTConMat.png)
+![](Images/DTConMat.png)
 
 #### Random Forest:
 Results:
@@ -115,7 +115,7 @@ Results:
 * F1 Score: 62% - 67%
 
 Confusion Matrix for Random Forest:
-![](RFConMat.png)
+![](Images/RFConMat.png)
 
 #### XGBoost:
 Results:
@@ -123,12 +123,12 @@ Results:
 * F1 Score: 63%
 
 Confusion Matrix for XGBoost:
-![](XConMat.png)
+![](Images/XConMat.png)
 
 __Notebooks containing each model:__
-* [Decision Tree and Logistic Regression](Modeling_DecTree_LogReg.ipynb)
-* [KNearestNeighbors](Modeling_KNN.ipynb)
-* [RandomForest and XGBoost](Modeling_RF_XGBoost.ipynb) 
+* [Decision Tree and Logistic Regression](Modeling/Modeling_DecTree_LogReg.ipynb)
+* [KNearestNeighbors](Modeling/Modeling_KNN.ipynb)
+* [RandomForest and XGBoost](Modeling/Modeling_RF_XGBoost.ipynb) 
 
 ## Results and Recommendations
 When it comes to selecting which model performed best, there is only one clear answer: XGBoost.  This is due to the fact that XGBoost is the most consistent of the models along with its high score. Random Forest may have performed better but its results were inconsistent.
@@ -140,11 +140,11 @@ When it comes to selecting which features were most important in determing wheth
 
 Random Forest's Important Features:
 
-![](RFfeat.png)
+![](Images/RFfeat.png)
 
 XGBoost's Important Features:
 
-![](XGBfeat.png)
+![](Images/XGBfeat.png)
 
 For both, _price low_ appears to be very important when determining stock movement in the next quarter.  This means that if the lowest price of the last quarter increased in the current quarter, then the stock has great chance for a 5% move in the next quarter.
 
