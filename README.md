@@ -4,12 +4,18 @@ Marco Santos
 
 ## Table of Contents
   * [Data](#Data)
-  * [Data Exploration](#Exploring)
+  * [Data Exploration](#[Exploring)
   * [Modeling](#Modeling)
-  * [Results/Recommendations](#Resulst/Recommendations)
+  * [Results/Recommendations](#Results/Recommendations)
   * [Improvements](#Potential)
   * [Conclusion](#Conclusion)
   
+### Tools Used:
+* Scikit Learn
+* Matplotlib
+* Pandas
+* BeatifulSoup
+
 ## Data
 
 The main source of data was retrieved from [Stockpup.com](http://www.stockpup.com/data/).
