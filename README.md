@@ -5,7 +5,7 @@ Marco Santos
 ## Table of Contents
   * [Data](#Data)
   * [Data Exploration](#Exploring)
-  * Modeling
+  * [Modeling](#Modeling)
   * Results/Recommendations
   * Improvements
   * Conclusion
@@ -38,7 +38,9 @@ __Final DataFrame__:
 5. The complete and clean DataFrame was exported by pickling for later.
 
 Below is a visualization of the class balance in the dataset:
+
 ![](class_equality.png)
+
 Jupyter notebook containing the code for this entire process: [Cleaning_Original_Data](Cleaning_Original_Data.ipynb)
 
 ## [Exploring the DataSet](Exploring_Data.ipynb)
@@ -47,9 +49,32 @@ With the final dataframe ready, the Data was then analyzed for better comprehens
 
 Each feature was plotted to see any class dominance when that specific feature was selected.
 
-Example:
+Example: 
+
 ![](plow.png)
 
+Features correlation was observed using a heatmap to check if any specific features were significantly correlated.
 
+![](featcorr.png)
 
+Jupyter notebook containing this process: [Exploring_Data](Exploring_Data.ipynb)
 
+## Modeling
+### Models Used:
+* Logistic Regression
+* K Nearest Neighbors
+* Decision Tree
+* Random Forest
+* XGBoost
+
+Each model implemented optimized parameters using _GridSearchCV_.
+
+#### Baseline Model:
+Dummy Classifier was used as a baseline model. (Used in this notebook: [Modeling_baseline](Modeling_baseline.ipynb))
+
+The results from runnning the Dummy Classifier on the final dataframe:
+* Accuracy Score: 46%
+* F1 Score: 46%
+
+Dummy Classifier's Confusion Matrix:
+![](DummyConMat.png)
