@@ -49,7 +49,7 @@ Below is a visualization of the class balance in the dataset:
 
 Jupyter notebook containing the code for this entire process: [Cleaning_Original_Data](Cleaning_Original_Data.ipynb)
 
-## [Exploring the DataSet](Exploring_Data.ipynb)
+## Exploring the DataSet
 
 With the final dataframe ready, the Data was then analyzed for better comprehension.
 
