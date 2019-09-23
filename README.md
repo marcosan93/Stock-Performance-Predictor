@@ -6,9 +6,9 @@ Marco Santos
   * [Data](#Data)
   * [Data Exploration](#Exploring)
   * [Modeling](#Modeling)
-  * Results/Recommendations
-  * Improvements
-  * Conclusion
+  * [Results/Recommendations](#Resulst/Recommendations)
+  * [Improvements](#Potential)
+  * [Conclusion](#Conclusion)
   
 ## Data
 
@@ -119,10 +119,34 @@ Results:
 Confusion Matrix for XGBoost:
 ![](XConMat.png)
 
+__Notebooks containing each model:__
+* [Decision Tree and Logistic Regression](Modeling_DecTree_LogReg.ipynb)
+* [KNearestNeighbors](Modeling_KNN.ipynb)
+* [RandomForest and XGBoost](Modeling_RF_XGBoost.ipynb) 
 
+## Results/Recommendations
+When it comes to selecting which model performed best, there is only one clear answer: XGBoost.  This is due to the fact that XGBoost is the most consistent of the models along with its high score. Random Forest may have performed better but its results were inconsistent.
 
+However, Random Forest was correct more often than not, so for those people searching for more opportunities in investing, Random Forest may be the preferred model. Others who are not so concerned with quantity may perhaps choose XGBoost because of its consistency and stability.
 
+__Important Features__
+When it comes to selecting which features were most important in determing whether a stock will go increase by >5%, XGBoost and RandomForest had similar observations:
 
+Random Forest's Important Features:
 
+![](RFfeat.png)
 
+XGBoost's Important Features:
 
+![](XGBfeat.png)
+
+For both, _price low_ appears to be very important when determining stock movement in the next quarter.  This means that if the lowest price of the last quarter increased in the current quarter, then the stock has great chance for a 5% move in the next quarter.
+
+## Potential Improvements
+* _Feature interactions_ could be included to better understand the fundamental data and how it affects price.
+* Eliminate certain features. Potentially principle component analysis could be used to reduce the number of unimportant features.
+* More sources. Other data sources could have been used to fill in missing values.
+* Run more models. More models such as Naive Bayes and SVM could have been ran to compare their results to the current models.
+
+## Conclusion
+Stocks fundamental data plays a large role in determining the underlying price.  The fact that the models here performed better than the baseline by more than 10% shows a strong validation for fundamental analysis as a stock investing technique.  XGBoost and RandomForest seem to be enough for now but more models and anaylses could have been done in order to improve the overall results.  The overall results here are mostly positive and appear to pointing in the right direction.
