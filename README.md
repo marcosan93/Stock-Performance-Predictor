@@ -1,5 +1,5 @@
-# Stock Predictor
-#### Predicting if a stock will rise by 5% or more in its next quarter based on fundamental data
+# Stock Classifier
+#### Predicting if a stock will rise by 5% or more in its next quarter based on fundamental data by classifying it as a buy or sell.
 Marco Santos
 
 ## Table of Contents
